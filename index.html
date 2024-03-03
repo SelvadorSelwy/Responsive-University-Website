@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Selwy University</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link" id="nav_links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="#main-page">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#course">course</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li> <a href="#contact">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="main-interface">
+            <h1>world's biggest university</h1>
+            <p>Making websites is nowe one of the easiest thing in the world . You just need to learn HTML ,
+                CSS,<br> Javascript and you are god to go </p>
+            <a class="main-btn" href="">visit us to know more</a>
+
+        </div>
+    </section>
+
+    <script>
+        var nav_links = document.getElementById("nav_links");
+        function showMenu() {
+            nav_links.style.right = "0";
+        }
+        function hideMenu() {
+            nav_links.style.right = "-150px";
+        }
+    </script>
+
+    <!-- ------------------------------- COURSE SECTION ------------------------------- -->
+
+    <section class="course" id="course">
+        <h1>Courses We Offer</h1>
+        <p>We teach people everything can make defferece to there life</p>
+        <div class="row_course">
+            <div class="colum_course">
+                <h3>Intermediate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quaerat veniam temporibus corporis
+                    delectus hic dolores saepe
+                    illo sequi libero, modi laborum, voluptas facilis voluptatem excepturi porro aliquid repellat
+                    asperiores.</p>
+            </div>
+            <div class="colum_course">
+                <h3>Degree</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quaerat veniam temporibus corporis
+                    delectus hic dolores saepe
+                    illo sequi libero, modi laborum, voluptas facilis voluptatem excepturi porro aliquid repellat
+                    asperiores.</p>
+            </div>
+            <div class="colum_course">
+                <h3>Post Graduation</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quaerat veniam temporibus corporis
+                    delectus hic dolores saepe
+                    illo sequi libero, modi laborum, voluptas facilis voluptatem excepturi porro aliquid repellat
+                    asperiores.</p>
+            </div>
+        </div>
+    </section>
+    <!-- --------------     Global Canpus    ---------------- -->
+    <!-- This part is working ok , I did it myself --> 
+    
+    <!-- <section class="global">
+        <h1>Our Global Campus</h1>
+        <p>We teach people everything can make defferece.</p>
+        <div class="row_global"> 
+           
+                <div class="img-london"></div>
+                <div class="img-york"></div>
+                <div class="img-washin"></div>
+                
+        </div>
+    </section> -->
+
+    <!-- --------------------------------Campus By Easy Toturial-------------------------------------------------- -->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>We teach people everything can make defferece.</p>
+        <div class="row_campus">
+            <div class="column">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3> WASHINGTON</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ------------------------------- Facilities ------------------------------------ -->
+
+    <section class="facilites">
+        <h1>Our Facilities</h1>
+        <p>We teach people everything can make defferece.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat hic totam quis quibusdam delectus
+                    fuga illo quasi, eligendi dolorum labore .</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat hic totam quis quibusdam delectus
+                    fuga illo quasi, eligendi dolorum labore .</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat hic totam quis quibusdam delectus
+                    fuga illo quasi, eligendi dolorum labore .</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------ Testimonials  ------------------------------ -->
+
+    <section class="testimonials" id="blog">
+        <h1>What Our Students Says</h1>
+        <p>Opinions of some students.</p>
+
+        <div class="testimonials-row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eius beatae doloremque a corrupti alias ut sequi nulla velit. Modi fugiat beatae vel nisi
+                        asperiores facilis
+                        voluptate quae deleniti ipsa repellat.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eius beatae doloremque a corrupti alias ut sequi nulla velit. Modi fugiat beatae vel nisi
+                        asperiores facilis
+                        voluptate quae deleniti ipsa repellat.</p>
+                    <h3>David Byrn</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------------  Call To Action  ---------------------------------- -->
+
+
+    <section class="cta" id="contact">
+        <h1>Enroll For Our Various Online Courses,<br>Anywhere From The World</h1>
+        <a class="main-btn" href="">CONTACT US</a>
+    </section>
+
+
+    <!-- --------------------------------------------- Footer ---------------------------------------------------- -->
+
+
+    <section class="footer" id="about">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae maxime rerum, saepe nostrum illum
+            suscipit?<br>Veritatis laborum ut unde culpa temporibus, possimus, in amet fuga repellat quis, harum
+            sapiente
+            distinctio.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <!-- <i class="fa-brands fa-envelope"></i> -->
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> By <span class="myself">Abdulbaset Selwy</span></p>
+        <p>All Right Reserved &COPY;</p>
+        <p>2022</p>
+    </section>
+</body>
+
+</html>
